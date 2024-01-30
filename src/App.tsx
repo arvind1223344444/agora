@@ -111,8 +111,8 @@ function Form(props: {
   const { AppID, setAppID, channelName, setChannelName, token, setToken, setInCall } = props;
   return (
     <div>
-      <p>Please enter your Agora AppID and Channel Name</p>
-      <label htmlFor="appid">Agora App ID: </label>
+      <p>Please enter your zoom AppID and Channel Name</p>
+      <label htmlFor="appid">zoom App ID: </label>
       <input id="appid" type="text" value={AppID} onChange={(e) => setAppID(e.target.value)} placeholder="required" />
       <br />
       <label htmlFor="channel">Channel Name: </label>
